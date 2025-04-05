@@ -12,7 +12,23 @@ Este repositório tem como objetivo:
 - Ajudar outros estudantes com exemplos comentados e explicações.
 
 ## 🗂 Estrutura do Repositório
-. ├── projetos/ # Projetos completos realizados nas disciplinas │ └── site-locadora/ # Ex: Projeto de um site de locadora │ ├── C/ # Atividades realizadas em C │ ├── laços/ # Exemplos com laços de repetição │ ├── arrays/ # Trabalhos com vetores e matrizes │ └── README.md # Explicações gerais sobre os exercícios em C │ ├── Python/ ├── Java/ ├── SQL/ └── ...
+
+```
+.
+├── projetos/              # Projetos completos realizados nas disciplinas
+│   └── site-locadora/     # Ex: Projeto de um site de locadora
+│
+├── C/                     # Atividades realizadas em C
+│   ├── laços/             # Exemplos com laços de repetição
+│   ├── arrays/            # Trabalhos com vetores e matrizes
+│   └── README.md          # Explicações gerais sobre os exercícios em C
+│
+├── Python/
+├── Java/
+├── SQL/
+└── ...
+```
+
 
 ## 💻 Tecnologias e Linguagens
 
