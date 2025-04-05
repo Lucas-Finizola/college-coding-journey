@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Faturas</title>
+        <style>
+            table,th,td{
+                border: 2px solid rgb(0,0,0);
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            thead,th{
+                background-color: rgb(95,99,99,0.623);
+                font-size: 25px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: yellow;
+            }
+            tbody{
+                text-align: center;
+                background-color: rgb(247,245,200);
+                font-size: 20;
+            }
+            tfoot{
+                background-color: rgb(111,112,112);
+                font-size: 25px;
+                font-weight: bold;
+            }
+            caption{
+                background-color: gray;
+                text-align: center;
+                color: yellow;
+                font-style: italic;
+                border: 7px outset rgb(0,0,0);
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <caption>Fatura</caption>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th>Soma</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Coxinha</td>
+                    <td>03</td>
+                    <td>5,00</td>
+                    <td>15,00</td>
+                </tr>
+                <tr>
+                    <td>Empadinha</td>
+                    <td>01</td>
+                    <td>7,00</td>
+                    <td>6,00</td>
+                </tr>
+                <tr>
+                    <td>Refrigerante</td>
+                    <td>02</td>
+                    <td>3,00</td>
+                    <td>6</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" rowspan="2">Total</td>
+                    <td>28,00</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </body>
+</html>

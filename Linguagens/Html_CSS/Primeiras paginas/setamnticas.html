@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Semânticas</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        .cabeçalho {
+            background-image: url(https://uploads.jovemnerd.com.br/wp-content/uploads/2020/04/rick-and-morty-o-velho-e-a-privada.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            margin: 10px;
+            border-radius: 30px;
+        }
+
+        .titulo {
+            width: 100%;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.65);
+            text-align: center;
+            font-size: 30px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .navegação ul {
+            list-style-type: none;
+            background-color: lightyellow;
+            padding: 0px;
+            margin: 0;
+        }
+        .navegação a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+        }
+        .alinhar {
+            display: flex;
+        }
+        .navegação a:hover {
+            background-color: yellow;
+        }
+        .cab {
+            background-color: black;
+            color: darkkhaki;
+            text-align: center;
+            padding: 5px
+        }
+        .arti{
+            background-image: linear-gradient(to right, rgb(243,243,191), rgb(247,247,127), rgb(245,245,191));
+            padding: 10px;
+            text-align: center;
+        }
+        .rdp {
+            text-align: center;
+            background-color: rgb(48, 53, 53);
+            padding: 5px;
+        }
+        .rdp a {
+            color: darkgoldenrod;
+        }
+        .sec {
+            border: 1px solid white;
+        }
+        .lateral {
+            background-image: radial-gradient(circle, rgb(243,243,191), rgb(247,247,127), rgb(245,245,191));
+            color: darkgoldenrod;
+            text-align: center;
+            padding: 5px;
+            border-radius: 30px;
+            border: 1px solid black;
+            width: 20%;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .lateral h3 {
+            text-shadow: 1px 1px 2px chocolate;
+            font-style: 25px;
+            padding: 5px;
+        }
+        .lateral a {
+            color: darkgoldenrod;
+            padding: 5px;
+        }
+        .principal {
+            width: 80%;
+        }
+        .ladoalado {
+            display: flex;
+        }
+        .Rodapé {
+            background-color: rgba(171,163,44,0.55);
+            height: 50px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .Rodapé a {
+            color: black;
+            padding: 15px;
+            font-size: 15px;
+        }
+        
+
+    </style>
+</head>
+<body>
+<!-- cabeçalho-->
+    <header class="cabeçalho">
+        <section class="titulo">
+            <h1>Aprendendo online</h1>
+        </section>
+    </header>
+<!-- Links de navegação-->
+    <nav  class="navegação">
+        <ul>
+            <section class="alinhar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="midia.html">Mídia</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </section>
+        </ul>
+    </nav>
+<!-- Princiapl-->
+<section class="ladoalado">
+    <main class="principal">
+    <!-- Primeira seção da área principal-->
+        <section = class="sec">
+            <header class="cab">
+                <h2>Aprenda HTML</h2>
+            </header>
+                <article class="arti">
+                    <p>Aprenda a criar a estrutura e conteúdo de
+                    uma página web</p>
+                </article>
+            <footer class="rdp">
+            <a href="aprendahtml.html">link HTML</a>
+            </footer>
+        </section>
+    <!-- Segunda seção da área principal-->
+        <section class="sec">
+            <header class="cab">
+            <h2>Aprenda CSS</h2>
+            </header>
+                <article class="arti">
+                    <p>Aprenda a estilizar uma página web</p>
+                </article>
+            <footer class="rdp">
+                <a href="aprendacss.html">link CSS</a>
+            </footer>
+        </section>
+    </main>
+    <!-- Bloco lateral-->
+    <aside class="lateral">
+        <h3>Conheça a primeira página web feita com HTML</h3>
+        <p>A página ficou online na data de 6 de agosto de 1991
+        e foi criada por Tim Berners-Lee</p>
+        <a href="primeira.html">clique aqui</a>
+    </aside>
+</section>
+<!-- Rodapé-->
+    <footer class="Rodapé">
+        <h3>Sites associados:</h3>
+        <a href="dominio.html">Compre um domínio</a>
+        <a href="servidor.html">Escolha um servidor</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Usando div</title>
+        <style>
+
+            *{
+                margin: 0;
+                text-align: center;
+            }
+            .Topo{
+                background-color: rgb(0, 0, 0, 0.65);
+                font-size: 20px;
+                font-weight: bolder;
+                color: chocolate;
+                width: auto;
+                height: auto;
+                box-sizing: border-box;
+            }
+            .Rio{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                padding: 15px;
+                background-color: aqua;
+                width: auto;
+                height: 300px;
+            }
+            .SP{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-style: italic;
+                padding: 10px;
+                background-color: darkgray;
+                height: 300px;
+            }
+            .JP{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+                padding: 20px;
+                background-color: darkcyan;
+                height: 300;
+            }
+            .rodape{
+                background-color: black;
+                color: white;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="Topo">
+            <h2>HTML Tur</h2>
+            <h2>Sua agência de viagens online</h2>
+
+        </div>
+        <div class="Rio">
+            <h1>Rio de janeiro</h1>
+            <figure>
+                <img src="https://revistaazul.voeazul.com.br/wp-content/uploads/2023/03/muito-alem-da-praia-saiba-o-que-fazer-no-rio-de-janeiro.jpeg.webp" alt="Imagem Rio de janeiro" width="200" height="100">
+            </figure>
+            <br>
+            <form>
+                <label for="DataidaRio">Data de Partida:</label>
+                <input type="date" id="DataidaRio" name="DataidaRio"><br><br>
+                <label for="DatavoltaRIo">Data de Retorno:</label>
+                <input type="date" id="DatavoltaRIo" name="DatavoltaRIo"><br><br>
+                <label for="Qtd_rio">Quantidade de passageiros</label>
+                <input type="number" id="Qtd_rio" name="Qtd_pax_rio"><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </form>
+        </div>
+        <div class="SP">
+            <h1>São paulo</h1>
+            <figure>
+                <img src="https://media.istockphoto.com/id/1166728645/pt/foto/suspension-bridge-cable-stayed-bridge-in-the-world.jpg?s=1024x1024&w=is&k=20&c=KPWLsfFDSsdt-tKA-_r5tGThjkiNluy_EjemSzi56y0=" alt="Imagem de São paulo" width="200" height="100">
+            </figure>
+            <br>
+            <form>
+                <label for="DataSP_Ida">Data de Partida:</label>
+                <input type="date" id="DataSP_Ida" name="DataSP_Ida"><br><br>
+                <label for="DataSP_Volta">Data de Retorno:</label>
+                <input type="date" id="DataSP_Volta" name="DataSP_Volta"><br><br>
+                <label for="Qtd_pax_SP">Quantidade de passageiros</label>
+                <select name ="Qtd_SP" id="Qtd_pax_SP">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select><br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </form>
+        </div>
+        <div class="JP">
+            <h1>João Pessoa</h1>
+            <figure>
+                <img src="https://paraiba.pb.gov.br/noticias/joao-pessoa-escolhida-como-um-dos-melhores-destinos-do-pais-para-conhecer/whatsapp-image-2023-12-01-at-15-27-26-1.jpeg/@@images/cee989e3-0d9d-4444-a021-f36ba97d32ad.jpeg" alt="Imagem de João Pessoa" width="200" height="100">
+            </figure>
+            <br>
+            <form>
+                <label for="DataJP_Ida">Data de Partida:</label>
+                <input type="date" id="DataJP_Ida" name="DataJP_Ida"><br><br>
+                <label for="DataJP_Volta">Data de Retorno:</label>
+                <input type="date" id="DataJP_Volta" name="DataJP_Volta"><br><br>
+                <label for="Qtd_JP">Quantidade de passageiros:</label><br>
+                <input type="radio" id="Qtd_JP" name="Qtd_pax_JP">1<br>
+                <input type="radio" id="Qtd_JP" name="Qtd_pax_JP">2<br>
+                <input type="radio" id="Qtd_JP" name="Qtd_pax_JP" checked>3<br><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </form>
+        </div>
+        <div class="rodape">
+            <p>Reseve um hotel:
+                <a href="ExercioDiv01.html">Clique aqui</a>
+            </p>
+        </div>
+    </body>
+</html>
