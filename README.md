@@ -1,6 +1,6 @@
 # 📚 College coding journey
 
-Olá! Meu nome é Lucas e este é o meu repositório de estudos e projetos desenvolvidos ao longo da minha graduação em Ciência da Computação. Atualmente estou no **3º semestre**, e aqui você encontrará desde exercícios de lógica de programação até projetos completos realizados durante as disciplinas, organizados por linguagem e tema.
+Olá! Este é o meu repositório de estudos e projetos desenvolvidos ao longo da minha graduação em Ciência da Computação. Atualmente estou no **3º semestre**, e aqui você encontrará desde exercícios de lógica de programação até projetos completos realizados durante as disciplinas, organizados por linguagem e tema.
 
 ## 🧠 Objetivo
 
