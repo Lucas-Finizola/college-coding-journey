@@ -1,0 +1,517 @@
+*{
+    box-sizing: border-box;
+  }
+  
+/* CSS do login - Feito por João e Lucas */
+.login {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.container_login {
+    background-color: rgba(253, 253, 253, 0.137); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px; /* Definido um tamanho fixo */
+    position: relative; /* Para posicionar o botão de som */
+}
+
+.login_button {
+    background-color: hsl(203, 22%, 12%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.p2, .p4 {
+    padding: 8px; /* Reduzido o padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 16px); /* Ajustado para caber no container */
+    font-size: 14px; /* Tamanho de fonte menor */
+}
+
+.login_botao {
+    padding: 10px;
+}
+
+.login_button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.login_form {
+    font-size: larger;
+    color: #ffffff;
+}
+
+#backgroundVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/*fim css do login*/
+
+
+/*css da locadora - Feito por Mario */
+
+.body_loc {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+
+/* Estilização do cabeçalho */
+.header_loc {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav_loc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav_loc ul li {
+    margin-right: 40px;
+    padding: 20px 0px 10px 0px;
+}
+
+.nav_loc a {
+    color: #f1e9e9;
+    text-decoration: none;
+    padding: 80px;
+}
+
+.nav_loc a:hover {
+    color: #ff0000;
+}
+
+/* Estilização do corpo */
+
+.car-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section-title {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.section-title:hover {
+    background-color: rgba(182, 178, 178, 0.8);
+}
+
+.car-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.car {
+    position: relative;
+    text-align: center;
+}
+
+.car-image {
+    width: 300px;
+    height: auto;
+    transition: transform 0.5s, opacity 0.3s ease;
+}
+
+.car-image.lado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.car:hover .car-image.fronte {
+    opacity: 0;
+}
+
+.car:hover .car-image.lado {
+    opacity: 1;
+}
+
+.car-nome {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #222;
+}
+/*CARROS ABAIXO DOS ESPORTIVOS*/
+
+
+
+/* Estilização do rodapé */
+.footer_car {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.nav_loc {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.nav_loc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_loc li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.ul_car a {
+    text-decoration: none;
+    color: #fae8e8;
+    font-weight: bold;
+}
+
+.footer_car {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_car_ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.footer_car li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer_car a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_car a {
+    color: #fff;
+
+    text-decoration: none;
+
+    transition: color 0.3s;
+
+}
+
+.footer_car a:hover {
+    color: red;
+
+}
+
+/*locadora parte 2*/
+
+
+
+.loc_2 {
+    background-image: url(https://i.pinimg.com/originals/a8/0e/08/a80e081f85d0a3bb10a7d7466a4f55f2.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+}
+
+.carrodetalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.precobutao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.preco {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ctabutao {
+    background-color: #FFC107;
+
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ctabutao:hover {
+    background-color: #FFA07A;
+
+}
+
+.ctabutao {
+
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+/*parte 3*/
+
+.hero {
+    height: 50vh; 
+    background-image: url('car-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.carro-detalhes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+.precobutao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+.preco {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+.botao_car3 {
+    background-color: #FFC107; 
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+  }
+
+.botao_car3:hover {
+    background-color: #FFA07A; 
+  }
+
+.botao_car3 {
+    animation: pulse 2s infinite;
+  }
+
+    @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+  /*LISTA DE CARROS*/
+
+.lista_car {
+    font-family: Arial, Helvetica, sans-serif; /* fonte geral da lista */
+}
+
+.lista_car h1 {
+    font-family: sans-serif;
+    padding: 40px 40px 40px 40px;
+    font-size: 30px;
+    font-weight: bold;
+} 
+.lista_car { 
+    background-color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.lista_links a {
+    font-size: 20px;
+    text-decoration: none; /*Remover o sublinhado do link*/
+    font-family: 'Courier New', Courier, monospace;
+}
+.lista_links a:visited {
+    color: rgb(206, 8, 8);
+}
+.lista_links a:hover {
+    color: rgba(0, 0, 0, 0.829);
+    background-color: rgb(240, 240, 240);
+    transition: background-color 0.8s ease; /* tempo que leva para o fundo ser selecionado *//* Oficialmente minha tag favorita até agora */
+    padding: 12px;
+    border-radius: 3px; /* borda circular quando voce passa o mouse por cima de um link da lista */
+}
+.divisao1 {
+    background-color: rgba(255, 255, 255, 0.671); /*cor do fundo*/
+    padding: 0px 50px 40px 50px;
+}
+.lista_links {
+    list-style-type: none; /*para retirar os pontos*/
+    padding-left: 0%; 
+}
+.lista_links li {
+    padding: 12px; 
+}
+.linkcadastro {
+    padding: 40px 0px 27px 0px;
+}
+.linkcadastro a {
+    list-style-type: none;
+    text-decoration: none;
+    transition: background-color 0.8s ease ease;
+}
+.linkespecial:hover {
+    color: rgb(255, 9, 9); /* cor do link "CADASTRO DE NOVOS VEICULOS!" quando voce passa o mouse por cima*/
+    background-color: hsl(56, 97%, 59%);
+    padding: 20px;
+    transition: background-color 1s ease;
+    border-radius: 2px; /* borda circular quando voce passa o mouse por cima do link "CADASTRO DE NOVOS VEICULOS!" */
+}
+
+ /* Estilo simples para a tabela */
+ .tabela_de_carros {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tabela_de_carros th, .tabela_de_carros td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+.tabela_de_carros th {
+    background-color: #f4f4f4;
+}
+
+
+/*cadastro de carro - Feito por Lucas e Livia*/
+
+*{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    }
+
+.h1_cadastro {
+    font-weight: bold;
+}
+    
+.body_cad{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+.cabecalho-cad{
+    background-color:#333;
+    width: 100%;
+    padding:30px;
+    font-family:'Times New Roman';
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    }
+    
+.ambosdados{
+    height: 250px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(245, 243, 243);
+    font-family: Tahoma;
+    border: none;
+    }
+
+.fieldset_cad {
+    border: 2px solid #636d64; /* Cor da borda */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px; /* Espaçamento externo */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    background: linear-gradient(white, #f9f9f9); /* Gradiente de fundo */
+    }
+
+.textos {
+    font-weight: bold; /* Negrito no título */
+    padding: 0 10px; /* Espaçamento ao redor do título */
+    color: #101110; /* Cor do texto do título */
+}
+ 
